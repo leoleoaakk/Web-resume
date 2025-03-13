@@ -11046,11 +11046,11 @@ html {
 }
 
 .masthead-avatar {
-  width: 150px; /* 設置圖片的寬度 */
-  height: 150px; /* 設置圖片的高度 */
-  clip-path: circle(36% at 70% 50%); /* 圓形裁剪，調整裁剪位置 */
+  width: 250px; /* 設置圖片的寬度 */
+  height: 250px; /* 設置圖片的高度 */
+  clip-path: circle(36% at 50% 40%); /* 圓形裁剪，調整裁剪位置 */
   object-fit: cover; /* 保持圖片比例 */
-  transform: translateX(-20%); /* 調整圖片位置 */
+  transform: translateX(0%); /* 調整圖片位置 */
 }
 
 .carousel-inner img {
