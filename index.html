@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!---=== meta ===-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!---=== meta ===-->
+    <title>Leo的個人空間</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Leo的個人空間</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#carousel">輪播圖</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">技能專長</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#cards">專案作品</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#about">關於我</a></li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">經歷</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#video">影音專區</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">聯絡我</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <!---=== header ===--->
+    <header class="masthead bg-info text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/mashiro.webp" alt="Your Avatar" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">黎彥群 / Leo Li</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-gift"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">軟體開發 / 前端 / 後端 / 遊戲開發</p>
+        </div>
+    </header>
+    <!---=== header ===--->
+    <section class="page-section bg-dark p-0" id="carousel">
+        <div class="container-fluid">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel/game_title.png" alt="Unity Game" class="d-block w-100"
+                            style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>謎霧森林</h3>
+                            <p>正製作中的遊戲</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/discord_bot.png" alt="Chicago" class="d-block w-100" style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>寶可夢查詢Discord Bot</h3>
+                            <p>出於興趣，全部由我自己寫出來的爬蟲機器人，可以查詢寶可夢的資訊。</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel/discord_bot_2.png" alt="Los Angeles" class="d-block w-100"
+                            style="width:100%">
+                        <div class="carousel-caption">
+                            <h3>楓之谷Discord Bot</h3>
+                            <p>我們的Discord伺服器正在使用的Bot，是我參考其他人的Python架構後全部用Node.js架構和JavaScript改寫的Bot</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">技能專長</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-tools"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/N_01.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/N_02.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/N_03.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/N_04.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/N_05.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 6-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/N_06.png" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---=== Add the section ===--->
+    <section class="page-section bg-info text-dark mb-0" id="cards">
+        <div class="container">
+            <!----=== header ===--->
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">專案作品</h2>
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!----=== header ===--->
+            <!-- About Section Content-->
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">自動駕駛無人車</h4>
+                                <p class="card-text">大學時所做的畢業專題，是運用 Arduino 結合 Python 圖像辨識的自動駕駛無人車。能簡易的辨識道路，會自動前進和轉彎。
+                                </p>
+                                <a href="#cards" class="btn btn-primary">See Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/cards/game_gif.gif" alt="Card image"
+                                style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">遊戲專案 - 謎霧森林</h4>
+                                <p class="card-text">使用Unity開發的2D橫向卷軸解謎探索遊戲，運用C# 撰寫主要遊戲邏輯。<br>
+                                    玩家扮演掉入森林的小偵探，跟著小偵探一步步找尋回家的方法以及探究這片森林的真相。<br>
+                                    目前已經更新到0.3版本的Demo，遊戲仍在製作中。</p>
+                                <a href="https://leoleoaakk.itch.io/mistforest-20241225" target="_blank"
+                                    class="btn btn-primary">去下載</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/cards/bot_command.png" alt="Card image"
+                                style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Discord機器人 - 查詢寶可夢資料</h4>
+                                <p class="card-text">查詢寶可夢相關資訊的DC機器人，<br>
+                                    使用Node.js環境搭配JavaScript以及12版的discord.js套件開發；<br>
+                                    只要使用指令輸入編號或是寶可夢名稱就能輕鬆查詢各式資訊。<br>
+                                    爬取資料來源：<br>
+                                    1.寶可夢百科：https://wiki.52poke.com/<br>
+                                    2.寶可夢官網：https://tw.portal-pokemon.com/<br>
+                                    目前因為網站改版，大部分功能已經失效。<br>
+                                </p>
+                                <a href="https://www.nintendo.com.hk/character/zelda/" target="_blank"
+                                    class="btn btn-primary">See Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section Button-->
+
+        </div>
+    </section>
+    <!---=== Add the section ===--->
+    <!-- About Section-->
+    <section class="page-section bg-secondary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">關於我</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-circle-user"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">對程式開發充滿熱忱，熟悉多種程式語言，並擁有使用Unity進行遊戲開發的經驗。曾自學並開發Discord機器人等專案。擁有JLPT
+                        N1證照，對日語文化、遊戲與音樂有深厚興趣，能應用日語進行進階閱讀與溝通。期望能在軟體開發領域持續精進並為公司貢獻所長。
+                    </p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">興趣是打遊戲，從小就是個任天堂粉絲，這個興趣也是推動我參加半年職訓學習Unity的原因，最終也成功完成了一個小遊戲專案的Demo。</p>
+                </div>
+            </div>
+            <!-- About Section Button-->
+            <!-- <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <i class="fas fa-download me-2"></i>
+                    Free Download!
+                </a>
+            </div> -->
+        </div>
+    </section>
+    <!-- ========== Experience Section ========== -->
+    <section class="page-section bg-info text-dark" id="experience">
+        <div class="container">
+            <!-- Section Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-dark">經歷</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line bg-dark"></div>
+                <div class="divider-custom-icon text-dark"><i class="fas fa-briefcase"></i></div>
+                <div class="divider-custom-line bg-dark"></div>
+            </div>
+            <!-- Experience Content -->
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h4>幼獅職業訓練場 (勞動部勞動力發展署桃竹苗分署) - 半年就業訓練</h4>
+                    <ul>
+                        <li>學習 Unity 遊戲開發與 C# 腳本撰寫</li>
+                        <li>進一步熟悉 Linux 系統、HTML/CSS/JS 前端技術</li>
+                        <li>初步認識 Windows Server 系統與 AWS 雲端服務</li>
+                    </ul>
+                    <h4>大學時期 - 中國文化大學 資訊工程學系</h4>
+                    <ul>
+                        <li>使用 Arduino + Python 製作自動駕駛無人車，辨識道路並可自動前進與轉彎</li>
+                        <li>利用過 JavaScript 和 cordova 製作過手機能運行的APP</li>
+                        <li>學習多種程式語言基礎與資料庫 (MySQL)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Experience Section ========== -->
+    <section class="page-section bg-danger text-white mb-0" id="video">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-white">影音專區</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-play"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 ms-auto">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_9f2SygJvzk?si=VxSpCcj8ScvbDw3E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">製作中的遊戲，謎霧森林0.3版本的Demo遊玩影片。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">聯絡我</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead mb-0">歡迎透過以下方式聯繫我！</p>
+                    <p>Email: leoleoaakk@gmail.com</p>
+                    <p>Phone: 0972-752-266</p>
+                </div>
+            </div>
+            <!-- Contact Section Form-->
+        </div>
+    </section>
+    <!---=== Footer ===--->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 offset-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">關於我的網頁</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/leoleoaakk"
+                        target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Leo的個人空間 2025</small></div>
+    </div>
+
+    <!---=== Portfolio Modals ===--->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">程式語言</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-tag"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_01_2.png" alt="..."
+                                    width="50%" />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_01_3.png" alt="..."
+                                    width="30%" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Python、C++、Java：熟悉基礎語法，Python曾用於學校專題。<br>
+                                    JavaScript：曾以JavaScript（搭配Node.js）開發Discord機器人。<br>
+                                    C#：在幼獅職業訓練場期間，專注於Unity遊戲開發與C#腳本撰寫。<br>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">前端開發</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-tag"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_02_2.png" alt="..."
+                                    width="40%" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">HTML/CSS/JavaScript：在大學與職訓課程皆有相關經驗，能開發基本的前端功能、互動效果。<br>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">遊戲開發</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-tag"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_03_2.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Unity：擁有半年實作經驗，熟悉Unity專案架構及C#腳本開發，可用於遊戲或多媒體互動應用。
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">作業系統與雲端</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-tag"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_04_2.png" alt="..."
+                                    width="30%" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Linux：瞭解基本操作與環境設定，具備在Linux下進行開發的能力。<br>
+                                    AWS/GCP：對於雲端服務有初步了解。
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">資料庫</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-tag"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_05_2.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">MySQL：大學時期曾使用，能進行資料庫設計與基礎操作。<br>
+                                    SQL Server：在職訓中有接觸，可以進行基本操作。<br>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">其他</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-tag"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/N_06_2.png" alt="..."
+                                    width="50%" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    Arduino：結合硬體與Python進行自動駕駛專案。<br>
+                                    Cordova：曾使用Cordova與JavaScript開發簡易的手機App。<br>
+                                    Git/GitHub：熟悉版本控制流程，能與團隊協同開發。<br>
+                                    語言能力：日本語 JLPT N1 (167/180)<br>
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---=== Portfolio Modals ===--->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
