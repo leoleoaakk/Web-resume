@@ -11050,7 +11050,6 @@ html {
   height: 250px; /* 設置圖片的高度 */
   clip-path: circle(36% at 50% 40%); /* 圓形裁剪，調整裁剪位置 */
   object-fit: cover; /* 保持圖片比例 */
-  transform: translateX(0%); /* 調整圖片位置 */
 }
 
 .carousel-inner img {
